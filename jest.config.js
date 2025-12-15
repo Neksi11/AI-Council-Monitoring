@@ -11,6 +11,5 @@ module.exports = {
     '**/__tests__/**/*.js',
     '**/?(*.)+(spec|test).js',
   ],
-  verbose: true,
-  setupFilesAfterEnv: ['<rootDir>/tests/setup.js'],
+  verbose: true
 };
