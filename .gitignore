@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Environment variables (IMPORTANT: Contains API keys!)
+.env
+.env.local
+.env.*.local
+
+# AI-COUNCIL Generated Files
+Hub/watch/
+Hub/results/
+Hub/issues/
+.ai-council-context.md
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test files
+test-watch/
+tests/output/
+tests/
+
+# Debug files
+debug-*.js
+
+# IDE and Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+.nyc_output/

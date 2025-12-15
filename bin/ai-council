@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+/**
+ * AI-COUNCIL CLI Entry Point
+ */
+
+// Simply delegate to the main CLI implementation
+require('../src/cli/index.js');

@@ -1,0 +1,141 @@
+{
+  "project": {
+    "name": "project-AICouncil",
+    "language": "javascript",
+    "framework": null
+  },
+  "supabase": {
+    "url": null,
+    "key": null
+  },
+  "monitoring": {
+    "directories": [
+      "./src",
+      "./lib"
+    ],
+    "ignore": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.git/**",
+      "**/*.test.js",
+      "**/*.spec.js",
+      "**/*.min.js"
+    ],
+    "fileTypes": [
+      ".js",
+      ".ts",
+      ".jsx",
+      ".tsx",
+      ".py",
+      ".java"
+    ],
+    "debounceDelay": 1000,
+    "maxFileSize": 1048576
+  },
+  "models": {
+    "claude": {
+      "enabled": true,
+      "weight": 0.25,
+      "apiKey": null,
+      "model": "claude-3-sonnet-20240229",
+      "maxTokens": 1500,
+      "temperature": 0.1
+    },
+    "gpt": {
+      "enabled": true,
+      "weight": 0.25,
+      "apiKey": null,
+      "model": "gpt-4-turbo-preview",
+      "maxTokens": 1500,
+      "temperature": 0.1
+    },
+    "grok": {
+      "enabled": true,
+      "weight": 0.2,
+      "apiKey": null,
+      "model": "llama-3.3-70b-versatile",
+      "provider": "groq",
+      "endpoint": "https://api.groq.com/openai/v1",
+      "maxTokens": 1500,
+      "temperature": 0.2
+    },
+    "gemini": {
+      "enabled": true,
+      "weight": 0.15,
+      "apiKey": null,
+      "model": "gemini-pro",
+      "maxTokens": 1500,
+      "temperature": 0.1
+    },
+    "llama": {
+      "enabled": false,
+      "weight": 0.15,
+      "model": "llama2:13b",
+      "provider": "ollama",
+      "endpoint": "http://localhost:11434",
+      "maxTokens": 2000,
+      "temperature": 0.1
+    },
+    "zai": {
+      "enabled": true,
+      "weight": 0.2,
+      "apiKey": null,
+      "model": "glm-4.6",
+      "endpoint": "https://api.z.ai/api/coding/paas/v4",
+      "maxTokens": 2000,
+      "temperature": 0.1
+    }
+  },
+  "thresholds": {
+    "minScore": 70,
+    "minConsensus": 0.6,
+    "minAgents": 1,
+    "defaultAgentMinScore": 50,
+    "agentMinScores": {
+      "claude": 60,
+      "gpt": 60,
+      "grok": 55,
+      "gemini": 60,
+      "llama": 55,
+      "zai": 60
+    },
+    "autoReject": {
+      "maxScore": 30,
+      "minConsensus": 0.2,
+      "criticalIssues": 5
+    },
+    "adaptive": {
+      "enabled": true,
+      "singleAgent": {
+        "minScore": 65,
+        "minConsensus": 0.7
+      },
+      "multiAgent": {
+        "minScore": 70,
+        "minConsensus": 0.6
+      }
+    },
+    "autoApprove": 85,
+    "reviewNeeded": 60,
+    "consensusRequired": 0.7
+  },
+  "learning": {
+    "enabled": true,
+    "patternExtraction": true,
+    "weightAdjustment": true,
+    "feedbackLoop": true
+  },
+  "notifications": {
+    "desktop": true,
+    "vscode": true,
+    "webhook": null
+  },
+  "output": {
+    "verbose": false,
+    "logLevel": "info",
+    "saveResults": true,
+    "resultsPath": "./.ai-council/results"
+  },
+  "name": "TestProject"
+}
