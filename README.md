@@ -1,3 +1,5 @@
+![Project Banner](image/Github%20Image.png)
+
 # AI-COUNCIL
 
 **AI Code Quality Assurance System** - Automated code review using multiple AI agents working together.
