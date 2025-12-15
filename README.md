@@ -27,7 +27,11 @@ This will:
 
 ### Step 3: Start Monitoring
 ```bash
-ai-council watch
+# Monitor entire project (recommended)
+ai-council watch -d ./
+
+# Or monitor specific directory
+ai-council watch -d ./src
 ```
 That's it! AI-COUNCIL will now automatically analyze your code changes in real-time.
 
@@ -76,7 +80,7 @@ Hub/
 | `ai-council init` | Initialize AI-COUNCIL in your project |
 | `ai-council status` | Show system status and active agents |
 | `ai-council analyze <file>` | Analyze a specific file |
-| `ai-council watch` | Start real-time file monitoring |
+| `ai-council watch -d ./` | Watch entire project (recommended) |
 | `ai-council watch -d ./src` | Watch specific directory |
 | `ai-council stats` | Show analysis history |
 | `ai-council clean` | Clean old analysis results |
