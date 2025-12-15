@@ -6,7 +6,7 @@ AI-COUNCIL analyzes your code using 4 AI models (Groq, Gemini, Z.AI, OpenRouter)
 
 ---
 
-## 🚀 Quick Start (3 Simple Steps)
+## Quick Start (3 Simple Steps)
 
 The entire setup takes less than 2 minutes!
 
@@ -37,9 +37,9 @@ That's it! AI-COUNCIL will now automatically analyze your code changes in real-t
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🤖 4 AI Agents Working Together
+### 4 AI Agents Working Together
 | Agent | Model | Purpose |
 |-------|-------|---------|
 | **Groq** | llama-3.3-70b-versatile | Fast, comprehensive analysis |
@@ -47,19 +47,19 @@ That's it! AI-COUNCIL will now automatically analyze your code changes in real-t
 | **Z.AI** | glm-4.6 | Deep reasoning analysis |
 | **OpenRouter** | devstral-2512:free | Open-source model insights |
 
-### 📊 Real-Time Code Analysis
+### Real-Time Code Analysis
 - Monitors your code as you save files
 - Detects **28+ security vulnerabilities**
 - Identifies **code quality issues**
 - Shows issues with **line numbers**
 
-### 🔗 AI Assistant Integration
+### AI Assistant Integration
 AI-COUNCIL automatically generates a `.ai-council-context.md` file that your AI coding assistant (Gemini, Copilot, Claude) can read to help fix issues!
 
 Just tell your AI:
 > "Read `.ai-council-context.md` and fix the critical issues"
 
-### 📁 Local Storage (No Database Required)
+### Local Storage (No Database Required)
 All data is stored locally in the `Hub/` folder:
 ```
 Hub/
@@ -73,7 +73,7 @@ Hub/
 
 ---
 
-## 📋 Commands
+## Commands
 
 | Command | Description |
 |---------|-------------|
@@ -87,13 +87,13 @@ Hub/
 
 ---
 
-## 🔑 API Keys
+## API Keys
 
 AI-COUNCIL requires at least **ONE** API key. We recommend starting with **Groq** (free tier available).
 
 | Provider | Free Tier | Get API Key |
 |----------|-----------|-------------|
-| **Groq** ⭐ | Yes (Recommended) | [console.groq.com](https://console.groq.com) |
+| **Groq** | Yes (Recommended) | [console.groq.com](https://console.groq.com) |
 | **Google Gemini** | Yes | [makersuite.google.com](https://makersuite.google.com) |
 | **OpenRouter** | Yes | [openrouter.ai](https://openrouter.ai) |
 | **Z.AI** | Limited | [z.ai](https://z.ai) |
@@ -111,7 +111,7 @@ ZAI_API_KEY=your-key-here
 
 ---
 
-## 🔍 What It Detects
+## What It Detects
 
 ### Security Issues
 - SQL Injection vulnerabilities
@@ -138,7 +138,7 @@ ZAI_API_KEY=your-key-here
 
 ---
 
-## 📝 Example Output
+## Example Output
 
 ```
 [ANALYZING] src/auth-service.js (javascript)
@@ -171,7 +171,7 @@ ZAI_API_KEY=your-key-here
 
 ---
 
-## 🤝 AI Assistant Integration
+## AI Assistant Integration
 
 AI-COUNCIL creates files that your AI coding assistant can read:
 
@@ -208,7 +208,7 @@ Simply tell your AI assistant:
 
 ---
 
-## 🌍 Supported Languages
+## Supported Languages
 
 | Language | Extensions |
 |----------|------------|
@@ -225,7 +225,7 @@ Simply tell your AI assistant:
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables
 ```env
@@ -251,7 +251,7 @@ Configuration is stored in `Hub/config/settings.json`:
 
 ---
 
-## 📊 How It Works
+## How It Works
 
 ```
                     ┌─────────────────┐
@@ -295,7 +295,7 @@ Configuration is stored in `Hub/config/settings.json`:
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - Node.js >= 18.0.0
 - npm >= 8.0.0
@@ -303,17 +303,17 @@ Configuration is stored in `Hub/config/settings.json`:
 
 ---
 
-## 📄 License
+## License
 
 MIT
 
 ---
 
-## 🙋 Support
+## Support
 
 - **Issues:** [GitHub Issues](https://github.com/ai-council/ai-council/issues)
 - **Documentation:** [GitHub Wiki](https://github.com/ai-council/ai-council/wiki)
 
 ---
 
-**Made with ❤️ by the AI-COUNCIL Team**
+**Made with care by the AI-COUNCIL Team**
